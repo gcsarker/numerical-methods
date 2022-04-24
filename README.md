@@ -40,5 +40,6 @@ Run the **NumericalMethods.m** file and when prompted write the method name to u
 | False Position| 'false position'|
 | Newton Raphson| 'newton raphson'|
 | Secant        | 'secant'        |
+
 for example, to find the real root of x^4-11x+8 = 0 near 2.0  using the Newton Raphson method, write newton raphson first to select it.
-![alt text](https://github.com/GCSarker/NumericalMethods/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![alt text]("https://github.com/GCSarker/NumericalMethods/Utility Functions/images/newton_raphson_select.png" "Selecting Newton Raphson Method")
