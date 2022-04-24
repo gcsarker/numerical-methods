@@ -29,8 +29,16 @@ This repository contains naive implementation of different numerical methods app
 2. Step-2: Open MATLAB and change working directory to the downloaded directory
 3. Step-3: Run NumericalMethods.m
 
-## Usage
-Run the **NumericalMethods.m** file and when prompted write the required method name in small letter. For example
+## Usage Examples
+Run the **NumericalMethods.m** file and when prompted write the method name to use in small letter.
+**For the solution of algebraic equations**
 
 
-
+| Method        | write           |
+| ------------- |:-------------:  |
+| Bisection     | 'bisection'     |
+| False Position| 'false position'|
+| Newton Raphson| 'newton raphson'|
+| Secant        | 'secant'        |
+for example, to find the real root of x^4-11x+8 = 0 near 2.0  using the Newton Raphson method, write newton raphson first to select it.
+![alt text](https://github.com/GCSarker/NumericalMethods/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
