@@ -133,8 +133,6 @@ function n_sol = NumericalSolution(method)
         h = input('Enter step size: ');
         xn = input('Enter point at which you want to evaluate solution: ') ;
         ode_sol = runge_kutta4(ode,x0,y0,h,xn);
-        fprintf('\nThe solution at each iterations: \n');
-        fprintf('%.6f\n',ode_sol);
         n_sol = ode_sol;
             
     else
