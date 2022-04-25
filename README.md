@@ -74,6 +74,7 @@ To find the numerical integration of a function    ![](https://latex.codecogs.co
 
 ### Runge-Kutta Method or Order Two
 The following images are the procedure to find the solution of an ordinary differential equation    ![](https://latex.codecogs.com/svg.latex?%5Cinline%20%5Cdpi%7B50%7D%20%5Clarge%20%5Cfrac%7B%5Cmathrm%7Bd%7D%20y%7D%7B%5Cmathrm%7Bd%7D%20x%7D%3D%5Csin%7By%7D)    using Runge-Kutta method.
+
 <img src = "utility/images/rk2_method.PNG" height = "150">
 <img src = "utility/images/rk2_output.PNG" height = "200">
 
