@@ -14,11 +14,11 @@
 %   Runge Kutta Method 2 order = 'rk2'
 %   Runge Kutta Method 4 order = 'rk4'
 
-addpath(genpath('./Solution of Algebraic Equations'));
-addpath(genpath('./Linear System of Equations'));
-addpath(genpath('./Numerical Integration'));
-addpath(genpath('./Ordinary Differential Equations'));
-addpath(genpath('./Utility Functions'));
+addpath(genpath('./algebraic-equations-solutions'));
+addpath(genpath('./linear-system-of-equations'));
+addpath(genpath('./numerical-integration'));
+addpath(genpath('./ordinary-differential-equations'));
+addpath(genpath('./utility'));
 
 method = input('Enter Algorithm (in small letter): ','s');
 n_sol = NumericalSolution(method);
