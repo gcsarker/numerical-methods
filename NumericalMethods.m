@@ -13,11 +13,14 @@
 %   Euler Method               = 'euler'
 %   Runge Kutta Method 2 order = 'rk2'
 %   Runge Kutta Method 4 order = 'rk4'
+%   Taylor Series Method       = 'taylor series'
+
 
 addpath(genpath('./algebraic-equations-solutions'));
 addpath(genpath('./linear-system-of-equations'));
 addpath(genpath('./numerical-integration'));
 addpath(genpath('./ordinary-differential-equations'));
+addpath(genpath('./function-approximation'));
 addpath(genpath('./utility'));
 
 method = input('Enter Algorithm (in small letter): ','s');
