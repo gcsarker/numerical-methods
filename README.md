@@ -24,6 +24,9 @@ This repository contains naive implementation of different numerical methods app
 3. Runge-Kutta Method of Order 2
 4. Runge-Kutta Method of Order 4
 
+**For Function Approximation**
+1. Taylor Series Expansion
+
 ## Installation Step
 1. Step-1: Download or clone this repository.
 2. Step-2: Open MATLAB and change working directory to the downloaded directory
@@ -42,7 +45,7 @@ Run the **NumericalMethods.m** file and when prompted write the method name to u
 | Matrix Inversion  | 'matrix inverse'    |Euler's Method     | 'euler'             |
 | Gauss Elimination | 'gauss elimination' |Runge Kutta Methd of order 2 | 'rk2'     |
 | Gauss Jordan      | 'gauss jordan'      |Runge Kutta Method of order 4 | 'rk4'    |
-|Gauss Seidal       | 'gauss seidal'      |
+|Gauss Seidal       | 'gauss seidal'      |Taylor Series Method          | 'taylor series' |
 
 ### Newton Raphson Method
 for example, to find the real root of  ![](https://latex.codecogs.com/svg.latex?x%5E%7B4%7D-11x&plus;8%20%3D0)  near 2.0  using the **Newton Raphson method**, write newton raphson first to select it. and choose the value of necessary parameters prompted to find the solution as shown.
